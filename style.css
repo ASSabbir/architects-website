@@ -1,0 +1,255 @@
+#{
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    margin: 1px;
+    padding: 0px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    
+}
+nav h2{
+    color: var(--Dark-01, #131313);
+text-align: center;
+font-family: Work Sans;
+font-size: 3.8em;
+font-style: normal;
+font-weight: 700;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li{
+    color: var(--Dark-02, #424242);
+text-align: center;
+font-family: Work Sans;
+font-size: 1.2em;
+font-style: normal;
+font-weight: 500;
+padding:0px 20px;
+list-style: none;
+cursor: pointer;
+}
+header{
+    margin-bottom: 300px;
+}
+.banner
+{
+    text-align: center;
+    margin: 20px auto;
+    width: 70%;
+}
+.banner-title{
+    color: var(--Dark-01, #131313);
+text-align: center;
+font-family: Work Sans;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.banner-dis
+{
+    color: var(--Dark-03, #727272);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.btn-main{
+    margin: 20px 0;
+    background-color: #FF900E;
+    width: 180px;
+height: 64px;
+color: aliceblue;
+font-weight: 600;
+font-family: Work Sans;
+font-size: 20px;
+padding: 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.banner-imge{
+    width:100%;
+    margin-bottom: 20px;
+    /* margin: 0px 20px 0 20px; */
+    /* margin: 0px auto; */
+
+}
+header{
+    background-color: rgb(236, 254, 255);
+}
+
+.banner-container{
+    justify-content: center;
+}
+.features-container{
+    display: flex;
+    gap: 20px;
+    margin: 30px 250px;
+    align-items: center;
+    
+
+}
+.features-imge{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    
+    
+}
+.features-text{
+    padding: 0 70px;
+    
+
+}
+.features-title{
+    color: var(--Dark-01, #131313);
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.td1{
+    color: var(--Dark-03, #727272);
+
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.td2{
+    color: #FF900E;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.main-dis{
+      color: var(--Dark-03, #727272);
+text-align:left;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.card{
+    margin:300px 240px 300px 240px;
+}
+.banner2-title{
+    color: var(--Dark-01, #131313);
+    font-size:3.5em;
+    font-weight:700;
+    font-family: Work Sans;
+    margin-bottom: 15px;
+    margin-top:20px
+}
+.banner2-dis{
+    width: 542px;
+    margin-top:0px;
+}
+.card-value{
+    color: var(--Dark-02, #424242);
+    font-size:2.8em;
+    font-weight:600;
+    margin-top:0px;
+    margin-bottom: 3px;
+}
+.card-title{
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    margin:0px;
+}
+.cards{
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 40px 40px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:567px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+        margin-right: 0px;
+        
+    }
+    header{
+        margin-bottom: 130px;
+    }
+    ul{
+        padding: 0;
+    }
+    nav ul li{
+        
+    padding:0px 5vw;
+    
+    }
+    nav > h2 {
+        text-align: center;
+        
+    }
+    .features-container{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        margin: 5px 20px;
+        align-items: center;
+        
+        
+    
+    }
+    .features-imge{
+        
+        grid-template-columns: repeat(1,1fr);
+        gap:10px;
+        
+        
+    }
+    .card-container{
+        flex-direction: column;
+        gap:15px;
+    }
+    .card{
+        margin:50px 100px 300px 100px;
+        
+    }
+    .banner2-dis{
+        width: auto;
+        margin-top:0px;
+    }
+}
+
